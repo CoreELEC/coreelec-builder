@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM arm64v8/ubuntu:bionic
 
 ARG DEBIAN_FRONTEND=noninteractive
 
@@ -26,6 +26,7 @@ RUN apt-get update && apt-get install -y \
     libjson-perl \
     golang-go \
     git openssh-client \
+    qemu-user-binfmt \
     --no-install-recommends \
  && rm -rf /var/lib/apt/lists/*
 
