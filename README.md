@@ -3,7 +3,7 @@
 ## Pull the image and run the container
 
 * `docker pull coreelec/coreelec-builder:latest`
-* `docker run -v ~/:/home/docker -h coreelec -it coreelec-builder`
+* `docker run -v ~/:/home/docker -h coreelec -it coreelec/coreelec-builder:latest`
 
 ## Clone repo and build image inside container
 
