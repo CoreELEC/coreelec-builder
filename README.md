@@ -9,5 +9,5 @@
 
 * `git clone git://github.com/CoreELEC/CoreELEC.git ~/CoreELEC`
 * `cd ~/CoreELEC`
-* `time(PROJECT=Amlogic-ng ARCH=arm make image)`  
+* `time(PROJECT=Amlogic-ng ARCH=aarch64 make image)`  
 Use `PROJECT=Amlogic` to build images for older S912 and S905/X/D devices
