@@ -7,6 +7,7 @@
 
 ## Clone repo and build image inside container
 
+* `sudo apt-get update`
 * `git clone git://github.com/CoreELEC/CoreELEC.git ~/CoreELEC`
 * `cd ~/CoreELEC`
 * `time(make image)`  
